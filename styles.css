@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+*{
+    font-family:Arial;
+    color:#EEE;
+    margin:0px;
+}
+
+footer{
+    background:#121212;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:20px;
+    color:#333;
+}
+
+#container{
+    background:#131313;
+}
+
+#top_container{
+    background:#232323;
+    padding:10px;
+    padding-bottom:10px;
+}

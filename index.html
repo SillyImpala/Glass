@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Glass - Main Window</title>
+  </head>
+  <body bgcolor="#111">
+    <div id="container">
+      <div id="top_container">
+        <h1>Glass</h1>
+      </div>
+      <footer>
+        Node.js ver.<span id="node-version"></span><br />
+        Chromium ver.<span id="chrome-version"></span><br />
+        Electron ver.<span id="electron-version"></span>
+      </footer>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
